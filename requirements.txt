@@ -1,0 +1,2 @@
+markovify==0.5.4
+slackclient==1.0.4
