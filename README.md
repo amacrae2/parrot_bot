@@ -9,14 +9,14 @@ $ source venv/bin/activate
 
 ## Generate required slack tokens
 
-In order to connect to slack, we will need to generate an authentication token for our bot. You can create a new bot and get the authentication token for it ([here](http://my.slack.com/services/new/bot).
+In order to connect to slack, we will need to generate an authentication token for our bot. You can create a new bot and get the authentication token for it [here](http://my.slack.com/services/new/bot).
 
 paste token in parrot_bot/parrot_bot.py
 ```
 BOT_TOKEN = "insert bot token here"
 ```
 
-In addition, if you want your bot to be able to use the Slack API to query slack for messages, you will need to generate another token since, by default, bots are not allowed to do this. The most straightforward way is to ([generate a token](https://api.slack.com/docs/oauth-test-tokens) for yourself, and allow the bot to use your token for querying purposes. Keep in mind that this will allow the bot to see and access everything you can see in slack, including private messages.
+In addition, if you want your bot to be able to use the Slack API to query slack for messages, you will need to generate another token since, by default, bots are not allowed to do this. The most straightforward way is to [generate a token](https://api.slack.com/docs/oauth-test-tokens) for yourself, and allow the bot to use your token for querying purposes. Keep in mind that this will allow the bot to see and access everything you can see in slack, including private messages.
 
 paste token in parrot_bot/parrot_bot.py
 ```
@@ -47,3 +47,5 @@ STARTUP_CHANNEL = "insert channel id of startup channel for bot"
 ```
 
 Then you should just be able to start spewing commands!
+
+![slack_example_image](media/parrot_bot_example.png)
