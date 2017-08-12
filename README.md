@@ -49,3 +49,5 @@ STARTUP_CHANNEL = "insert channel id of startup channel for bot"
 Then you should just be able to start spewing commands!
 
 ![slack_example_image](media/parrot_bot_example.png)
+
+You can also replace `me` with the name of another slack user (without the @ in front) to see something that person might say.
